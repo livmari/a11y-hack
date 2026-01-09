@@ -32,10 +32,10 @@ export const NotificationDot: React.FC<NotificationDotProps> = ({
     };
 
     const variantClasses = {
-        primary: 'bg-blue-600',
-        error: 'bg-red-600',
-        warning: 'bg-orange-600',
-        success: 'bg-green-600',
+        primary: 'bg-primary-600',
+        error: 'bg-error-600',
+        warning: 'bg-warning-600',
+        success: 'bg-success-600',
     };
 
     // For circles, use percentage-based positioning to sit on the circular edge

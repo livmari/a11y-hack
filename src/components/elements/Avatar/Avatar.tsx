@@ -52,8 +52,8 @@ const Avatar:React.FC<AvatarProps> = ({size = 'medium', shape = 'circle', childr
     
     return (
         <div className="relative inline-block">
-            <div className={`flex items-center justify-center bg-gray-200 ${sizeClasses[size]} ${shapeClass}`}>
-                <UserIcon className={`text-gray-600 ${iconSizeClasses[size]}`} />
+            <div className={`flex items-center justify-center bg-base-200 ${sizeClasses[size]} ${shapeClass}`}>
+                <UserIcon className={`text-base-600 ${iconSizeClasses[size]}`} />
             </div>
             {enhancedChildren}
         </div>
