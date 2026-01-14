@@ -5,7 +5,7 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 }
 
 const Button:React.FC<ButtonProps> = ({label, variant = 'outlined', size = 'medium', className, ...props}) => {
-    const baseStyles = 'rounded-md font-medium cursor-pointer transition-all duration-200 border-0 disabled:opacity-50 disabled:cursor-not-allowed'
+    const baseStyles = 'rounded-full font-medium cursor-pointer transition-all duration-200 border-0 disabled:opacity-50 disabled:cursor-not-allowed'
     
     const sizeStyles = {
         small: 'px-3 py-1.5 text-sm',
